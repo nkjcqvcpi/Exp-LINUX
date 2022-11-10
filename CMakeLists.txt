@@ -1,0 +1,23 @@
+cmake_minimum_required(VERSION 3.20)
+project(UNIX/LINUX实验)
+
+set(CMAKE_C_STANDARD 11)
+
+add_executable(main exp1/main.c)
+add_executable(exp2 exp2/exp2.c)
+add_executable(CopyFile exp2/CopyFile.c)
+add_executable(3_1 exp3/1.c)
+add_executable(3_1_1 exp3/1_1.c)
+add_executable(3_2 exp3/2.c)
+add_executable(3_3_server exp3/3_server.c)
+add_executable(3_3_client exp3/3_client.c)
+add_executable(udpserver exp4/udpserver.c)
+add_executable(udpclient exp4/udpclient.c)
+add_executable(udpclient_connect exp4/udpclient_connect.c)
+add_executable(tcpserver exp5/tcpserver.c)
+add_executable(tcpclient exp5/tcpclient.c)
+
+add_executable(code codes/main.cpp)
+add_executable(2 codes/2.c)
+add_executable(3 codes/3.c)
+add_executable(4 codes/4.c)
